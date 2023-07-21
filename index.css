@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.post{
+    margin:0 auto;
+    background-color: ghostwhite;
+    max-width: 60vh;
+    height: 90%;
+}
+
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    align-items: center;
+}
+
+.numero{
+    display: flex;
+    align-items: center;
+}
+
+.nombre{
+    line-height: 0;
+    margin-left: 5px;
+}
+
+.puntos{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: top 2px;
+}
+
+.img{
+
+    margin-top: 3px ;
+    width: 98%;
+    padding:5px;
+
+}
+
+
+
+.iconos {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.texto{
+    margin:2;
+    padding:12px;
+}
